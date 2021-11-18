@@ -1,0 +1,105 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #eae8fe;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header img {
+  width: 386px;
+  height: 190px;
+}
+
+header {
+  margin-bottom: 67px;
+}
+
+main {
+  width: 740px;
+  height: 545px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.left-container {
+  background: #fff;
+  margin-right: 18px;
+  width: 360px;
+  height: 545px;
+  padding: 31px 27px 28px 27px;
+  box-sizing: border-box;
+}
+
+.item-list {
+  width: 306px;
+  height: 272px;
+  margin-bottom: 20px;
+}
+
+.item-list div {
+  width: 94px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid #6327fe;
+  box-sizing: border-box;
+}
+
+.item-list div img {
+  width: 36px;
+  height: 65px;
+  margin-bottom: 6px;
+}
+
+.item-list div p {
+  color: #333333;
+  font-size: 9px;
+  line-height: 13px;
+  vertical-align: center;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.item-list div button {
+  width: 70px;
+  height: 22px;
+  border-radius: 50px;
+  background: #6327fe;
+  font-size: 12px;
+  font-weight: 500;
+  vertical-align: center;
+  line-height: 12px;
+}
+
+.price {
+  width: 305px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.price dl {
+  width: 200px;
+  height: 32px;
+  background: #eae8fe;
+  padding: 6px 10px 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.right-container {
+  width: 360px;
+  height: 545px;
+  border: 1px solid;
+}
