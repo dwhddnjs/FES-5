@@ -38,9 +38,12 @@ main {
   width: 306px;
   height: 272px;
   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px 12px;
 }
 
-.item-list div {
+.item-list li {
   width: 94px;
   height: 130px;
   display: flex;
@@ -48,17 +51,17 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  border: 3px solid #6327fe;
   box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 
-.item-list div img {
+.item-list li img {
   width: 36px;
   height: 65px;
   margin-bottom: 6px;
 }
 
-.item-list div p {
+.item-list li p {
   color: #333333;
   font-size: 9px;
   line-height: 13px;
@@ -67,7 +70,7 @@ main {
   margin-bottom: 7px;
 }
 
-.item-list div button {
+.item-list li button {
   width: 70px;
   height: 22px;
   border-radius: 50px;
@@ -76,25 +79,80 @@ main {
   font-weight: 500;
   vertical-align: center;
   line-height: 12px;
+  color: #fff;
 }
 
 .price {
-  width: 305px;
-  height: 32px;
+  width: 306px;
+  height: 33px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  margin-bottom: 11px;
 }
 
 .price dl {
   width: 200px;
-  height: 32px;
+  height: 33px;
   background: #eae8fe;
-  padding: 6px 10px 7px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+}
+
+.price dt,
+.pricce dd {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price button {
+  width: 94px;
+  height: 33px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  line-height: 19px;
+  vertical-align: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.deposit {
+  width: 306px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-bottom: 11px;
+}
+
+.deposit input {
+  width: 200px;
+  height: 33px;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  vertical-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 6px 0 6px 8px;
+}
+
+.deposit button {
+  width: 94px;
+  height: 32px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 500;
+  vertical-align: center;
   border-radius: 5px;
 }
 
