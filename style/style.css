@@ -176,9 +176,19 @@ main {
   background: #eae8fe;
   border: 1px solid #bdbdbd;
   border-radius: 5px;
-  overflow-y: hidden;
   padding: 12px 0 12px 12px;
   box-sizing: border-box;
+  overflow-y: scroll;
+  /* scroll-padding-right: 10px; */
+}
+
+.basket ul::-webkit-scrollbar {
+  width: 4px;
+}
+
+.basket ul::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .basket button {
@@ -203,6 +213,7 @@ main {
   align-items: center;
   box-sizing: border-box;
   border-radius: 5px;
+  margin-bottom: 6px;
 }
 
 .basket ul li img {
